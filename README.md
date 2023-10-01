@@ -7,5 +7,5 @@
           No primeiro passo é preenchida um ArrayList "arquivo" com os nomes de filmes do txt e outro ArrayList "cache" com alguns filmes, simulando que o usuário já tenha pesquisado por eles.
           Então é feita a pesquisa de um filme novamente pelo "cache" que por sua vez é mais rápido que a procura na lista "arquivo" que simula a fonte. Para a pesquisa do filme em ambas as listas,
           incluímos um contador em milissegundos para fazer a comparação e simular que, uma vez que um dado entra no cache, a pesquisa por ele se torna mais rápida do que procurar novamente na fonte.
-          Para testar é necessário entrar no projeto proxy>Src e rodar o main.
+          Para testar é necessário entrar no projeto TrabEng>Src e rodar o main.
               
