@@ -8,4 +8,8 @@
           Então é feita a pesquisa de um filme novamente pelo "cache" que por sua vez é mais rápido que a procura na lista "arquivo" que simula a fonte. Para a pesquisa do filme em ambas as listas,
           incluímos um contador em milissegundos para fazer a comparação e simular que, uma vez que um dado entra no cache, a pesquisa por ele se torna mais rápida do que procurar novamente na fonte.
           Para testar é necessário entrar no projeto TrabEng>Src e rodar o main.
-              
+
+3° Iterator: Iterator é ao mesmo tempo um objeto que percorre os dados de uma Collection (ou container) e um padrão de projeto. O padrão de projeto Iterator se vale do objeto iterator para acessar os elementos de um container e 'desacopla' os algoritmos do container (quando possivel). Esse desacoplamento significa poder iterar sobre uma determinada estrutura sem ter que obrigatóriamente obedecer as regras dela.
+          No caso implementado, utilizamos tanto o Iterator objeto quanto o padrão de projeto. Itermos sobre uma lista (uma das estruturas mais utilizadas e consequentemente iteradas do mundo) para obter os dados presente nela.
+          A lista implementada é uma double linked list, o que significa q é uma lista encadeada com cada nó linkado ao próximo e ao anterior. O iterator permite nós passarmos por todos os elementos da lista, mesmo sem ter q seguir suas regras padrões ou padrões de um for loop normal.
+          Para testar, simplesmente precisa se rodar a classe principal do projeto.
